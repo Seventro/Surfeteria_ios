@@ -111,7 +111,7 @@ public class MessageSaveMe : MonoBehaviour {
 
             myButton.GetComponent<ButtonStatus>().Disable();
 
-            ADSController.Instance.RequestRewardBasedVideo(true, WatchAd);
+            //ADSController.Instance.RequestRewardBasedVideo(true, WatchAd);
         
     }
 

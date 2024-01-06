@@ -74,7 +74,7 @@ public class CooldownSkis : MonoBehaviour {
         Modules.SaveNewDateTime("GetSkis");
         Modules.itemBonusViewAds = "Skis";
 #if (UNITY_WEBPLAYER || UNITY_WEBGL || UNITY_STANDALONE_WIN || UNITY_IOS || UNITY_ANDROID || UNITY_EDITOR)
-        ADSController.Instance.RequestRewardBasedVideo(true, CallReward);
+        //ADSController.Instance.RequestRewardBasedVideo(true, CallReward);
 #endif
     }
 

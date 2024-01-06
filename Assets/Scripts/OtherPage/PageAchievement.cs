@@ -131,7 +131,7 @@ public class PageAchievement : MonoBehaviour
         textDoubleCoin.text = "Please Wait!";
         Modules.itemBonusViewAds = "DoubleCoins";
 #if (UNITY_WEBPLAYER || UNITY_WEBGL || UNITY_STANDALONE_WIN || UNITY_IOS || UNITY_ANDROID || UNITY_EDITOR)
-        ADSController.Instance.RequestRewardBasedVideo(true, CallReward);
+        //ADSController.Instance.RequestRewardBasedVideo(true, CallReward);
 #endif
 	}
 

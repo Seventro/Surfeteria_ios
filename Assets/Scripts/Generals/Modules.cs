@@ -1187,7 +1187,7 @@ public class Modules : MonoBehaviour {
         //ADSController.Instance.DestroyBanner();
         if (runTimeShowInterstitial >= timeShowInterstitial - 1)
         {
-            ADSController.Instance.ShowInterstitial();
+            //ADSController.Instance.ShowInterstitial();
             runTimeShowInterstitial = 0;
         }
         else runTimeShowInterstitial++;
